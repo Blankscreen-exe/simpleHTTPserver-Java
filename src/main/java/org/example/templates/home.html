@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Simple HTTP server</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <style>
+        *{
+            font-family: 'Roboto', sans-serif;
+        }
+        a {
+            color: #1C9433;
+        }
+        a:hover {
+            color: #7CB286;
+        }
+        h1 {
+            color: #065c3f;
+        }
+        .footer {
+            padding: 10px;
+            background-color: #daf5ec;
+            color: #065c3f;
+        }
+        .url {
+            color: #d5d5d5;
+            font-weight: bold;
+        }
+        ul {
+            list-style-type: "🔗";
+            color: red;
+        }
+    </style>
+
+
+</head>
+<body>
+<h1>Simple HTTP Server (Made In Java)</h1>
+<p>A simple HTTP server made in JAVA sole purpose of which is to parse the requests and send a selected version of response.</p>
+<p>Select any URL from below to see all your request info</p>
+    <ul>
+        <!-- add route urls here -->
+        <li>
+            <a href="/parse">Simple Text Response</a> <span class="url">( <em>/parse</em> )</span>
+        </li>
+        <li>
+            <a href="/parse/json">Json Response</a> <span class="url">( <em>/parse/json</em> )</span>
+        </li>
+    </ul>
+
+<div class="footer">
+    <p><strong>Project URL:</strong> <a href="https://github.com/Blankscreen-exe/simpleHTTPserver-Java" style="font-style: italic;">https://github.com/Blankscreen-exe/simpleHTTPserver-Java</a></p>
+    <p><strong>By:</strong> Muhammad Hammad Hassan</p>
+</div>
+</body>
+</html>
