@@ -111,7 +111,7 @@ public class Main {
 
 
             // parsing the request body
-            InputStream requestBody = exchange.GetRequestBody();
+            InputStream requestBody = exchange.getRequestBody();
             String responseBodyString = null;
             try {
                 responseBodyString = utilities.ReqBodyToByteArray(requestBody);
