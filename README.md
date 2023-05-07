@@ -26,4 +26,5 @@ Version:     2.14.2
 
 ## Further Tasks
 
+- send an HTML response
 - send an XML response
